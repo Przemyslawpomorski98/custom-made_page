@@ -1,0 +1,5 @@
+[0703/164245.848:ERROR:file_io_win.cc(179)] CreateFile C:\Users\agnieszka2\AppData\Local\Google\Chrome\User Data\Crashpad\settings.dat: Odmowa dostêpu. (0x5)
+[0703/165256.218:ERROR:file_io_win.cc(179)] CreateFile C:\Users\agnieszka2\AppData\Local\Google\Chrome\User Data\Crashpad\settings.dat: Odmowa dostêpu. (0x5)
+[0703/165256.233:ERROR:registration_protocol_win.cc(84)] TransactNamedPipe: Potok zosta³ zakoñczony. (0x6D)
+[0703/165256.249:ERROR:file_io_win.cc(179)] CreateFile C:\Users\agnieszka2\AppData\Local\Google\Chrome\User Data\Crashpad\settings.dat: Odmowa dostêpu. (0x5)
+[0703/172148.255:ERROR:file_io_win.cc(179)] CreateFile C:\Users\agnieszka2\AppData\Local\Google\Chrome\User Data\Crashpad\settings.dat: Odmowa dostêpu. (0x5)

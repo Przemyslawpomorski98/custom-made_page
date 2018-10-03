@@ -1,0 +1,495 @@
+.main_font{
+	color: #474c72;
+}
+
+.margin{
+	margin: 0 !important;
+	padding: 0 !important;
+}
+ body{
+ 	overflow-x: hidden;
+ }
+
+/*HEADER-------------------------*/
+
+.nav_background{
+	background: #474c72;
+	width: 100%;
+	height: 60px;
+	margin: 0 !important;
+	opacity: 0.7;
+}
+
+header{
+	position: absolute;
+	width: 100%;
+	transition: all .6s;
+	z-index: 3;
+}
+
+.head{
+	z-index: 0;
+	
+}
+
+.fixed-top{
+	position: fixed !important;
+	top: 0 !important;
+	background: rgba(64, 64, 64, .95);
+	transition: all .6s;
+
+}
+
+.nav-link{
+	margin-top: 0px !important;
+	color: #fff !important;
+	font-family: "Dosis";
+	font-size: 20px !important;
+	letter-spacing: 1px !important;
+	padding-left: 15px !important;
+	padding-right: 15px !important;
+	transition: all .4s;
+}
+
+.nav-link:hover{
+	color: #474c72 !important;
+	transition: all .4s;
+}
+
+section.head{
+	background: url('../img/head2.jpg');
+	height: 100vh;
+	background-size: cover;
+	padding-top: 100px;
+	z-index: 1;
+}
+
+
+section.head h3{
+	font-size: 86px;
+	margin: 0;
+	line-height: 70px;
+	font-family: "Dosis";
+	text-align: center;
+	margin-top: 65px;
+	color: white;
+}
+
+
+.header_p{
+	color: white;
+	text-align: center;
+	padding-top: 15px;
+	padding-bottom: 30px;
+	font-size: 18px;
+	line-height: 25px;
+
+}
+
+
+#header{
+	z-index: 3;
+}
+
+.logo{
+	
+	margin-left: 40px;
+	height: 170px;
+	width: 170px;
+}
+
+.right{
+	margin-right: 130px !important;
+}
+
+.quote{
+	font-size: 40px !important;
+}
+
+.margin_right{
+	margin-right: 80px !important;
+}
+
+
+/*HEADER-------------------------*/
+
+/*SEKCJA DRUGA-------------------------*/
+
+.line{
+	border-left: 1px #474c72 solid;
+	margin-left: -10px;
+}
+
+section.two > .container > .row > .col-md-6 > .row > .col-md-8 > h3{
+	text-align: center;
+	margin-top: 80px;
+}
+
+section.two > .container > .row > .col-md-6 >  p.right_off{
+	text-align: left;
+	margin-top: 40px;
+  margin-right: 20px;
+  text-align: justify;
+}
+
+section.two > .container > .row > .col-md-6 >  p.left_off{
+  text-align: left;
+  margin-top: 40px;
+  margin-left: 20px;
+  text-align: justify;
+}
+
+section.two > .container > .row > .col-md-6 >  p{
+  text-align: left;
+  margin-top: 40px;
+  text-align: justify;
+}
+
+section.two > .container > .row > .col-md-6 >  p.text_left{
+  text-align: left;
+  
+}
+
+section.two > .container > .row > .col-md-6 >  p.bold_font{
+  font-weight: 500;
+}
+
+section.two > .container > .row > .col-md-6 > ul > li{
+  padding: 10px 0 10px 84px;
+  list-style: none;
+  background-image: url("../img/dot.png");
+  background-repeat: no-repeat;
+  background-position: left center;
+  background-size: 20px;
+  margin-right: 20px;
+  font-size: 15px;
+
+}
+
+
+section.two > .container > .row > .col-md-6 > ul{
+  list-style: none;
+}
+
+section.two{
+	margin-top: 40px;
+}
+
+
+.horizontal { 
+	margin-top: 60px;
+  border: 0; 
+  height: 1px; 
+  background-image: -webkit-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
+  background-image: -moz-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
+  background-image: -ms-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
+  background-image: -o-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0); 
+}
+
+.horizontal1 { 
+  border: 0; 
+  height: 1px; 
+  background-image: -webkit-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
+  background-image: -moz-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
+  background-image: -ms-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
+  background-image: -o-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0); 
+}
+
+.info_ksiegowosc{
+	background: url('../img/ksiegowosc.png');
+	background-size: contain;
+	height: 80px;
+	width: 80px;
+}
+
+.info_kpir{
+	background: url('../img/kpir.png');
+	background-size: contain;
+	height: 80px;
+	width: 80px;
+}
+
+.info_kadry{
+	background: url('../img/kadry.png');
+	background-size: contain;
+	height: 80px;
+	width: 80px;
+}
+
+.info_spolki{
+	background: url('../img/spolki.png');
+	background-size: contain;
+	height: 80px;
+	width: 80px;
+}
+/*SEKCJA DRUGA-------------------------*/
+
+/*SEKCJA TRZECIA-------------------------*/
+
+.list-group > .active{
+	background: #474c72 !important;
+	border-color: #474c72 !important;
+}
+
+section.three > .container > .row > .col-md-12 > h3{
+	text-align: center;
+	margin-top: 40px;
+	font-size: 35px;
+	margin-bottom: 45px;
+}
+
+.buttons{
+	font-size: 15px;
+	color: white;
+	background: #474c72;
+	padding: 12px;
+	transition: all .4s;
+	border: 1px solid #474c72;
+	border-radius: 6px;
+}
+
+.buttons:hover{
+	font-size: 15px;
+	color: white !important;
+	background: #474c72;
+	padding: 10px;
+	transition: all .4s;
+	text-decoration: none !important;
+}
+/*SEKCJA TRZECIA-------------------------*/
+
+/*SEKCJA CZWARTA----------------------------*/
+
+.about > h3{
+  text-align: center;
+  margin-top: 140px;
+  font-size: 30px;
+  font-family: 'Signika', sans-serif;
+  color: #474c72;
+  
+}
+
+.about > p{
+  text-align: justify;
+  margin-left: 50px;
+  margin-top: 60px;
+  font-size: 15px;
+
+}
+
+/* form */
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  width: 80%;
+
+}
+
+.contact-form button {
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+.contact-form label {
+  display: block;
+  min-width: 100px;
+  width: 100%;
+
+}
+
+.insurance-date {
+  display: none;
+}
+
+.label-with-validation {
+  display: flex;
+  justify-content: space-between;
+}
+
+
+
+.checkbox-validation .error {
+  margin-left: 8px;
+}
+
+.error {
+  color: #900;
+  text-align: right;
+}
+
+.error--rodo {
+  text-align: left;
+}
+
+@media screen and (max-width: 1024px) {
+  .contact-form {
+    width: 90%;
+  }
+
+  .checkbox-validation {
+    flex-wrap: wrap;
+  }
+
+  .checkbox-validation .error {
+    margin-left: 0;
+  }
+}
+
+input[type=text]{
+    width:100%;
+    border:2px solid #aaa;
+    border-radius:4px;
+    margin:8px 0;
+    outline:none;
+    padding:5px;
+    box-sizing:border-box;
+    transition:.3s;
+	display: block;
+	float: left;
+  }
+
+  input[type=text]:focus{
+    border-color:#474c72;
+    box-shadow:0 0 8px 0 #474c72;
+  }
+
+  .inputWithIcon input[type=text]{
+    padding-left:40px;
+  }
+
+  .inputWithIcon{
+    position:relative;
+  }
+
+  .inputWithIcon i{
+    position:absolute;
+    left:4px;
+    top:10px;
+    padding:9px 8px;
+    color:#aaa;
+    transition:.3s;
+  }
+
+  .inputWithIcon input[type=text]:focus + i{
+    color:#474c72;
+  }
+
+button{
+  padding: 3px 10px;
+  color: #fff;
+  background: #474c72;
+  border-radius: 19px;
+  border: 2px solid #474c72;
+
+}
+
+.naglform{
+  font-size: 30px;
+  font-family: 'Signika', sans-serif;
+  margin-bottom: 40px;
+  color: #474c72;
+  margin-left: 320px;
+  margin-top: 50px;
+}
+
+#form-law{
+  width:100%;
+    border:2px solid #aaa;
+    border-radius:4px;
+    margin:8px 0;
+    outline:none;
+    padding:5px;
+    box-sizing:border-box;
+    transition:.3s;
+  display: block;
+  float: left;
+  }
+
+  #ewidencja{
+  width:100%;
+    border:2px solid #aaa;
+    border-radius:4px;
+    margin:8px 0;
+    outline:none;
+    padding:5px;
+    box-sizing:border-box;
+    transition:.3s;
+  display: block;
+  float: left;
+  }
+
+  #zagraniczne{
+  width:100%;
+    border:2px solid #aaa;
+    border-radius:4px;
+    margin:8px 0;
+    outline:none;
+    padding:5px;
+    box-sizing:border-box;
+    transition:.3s;
+  display: block;
+  float: left;
+  }
+
+  #form-law:focus{
+    border-color:#474c72;
+    box-shadow:0 0 8px 0 #474c72;
+  }
+
+  #ewidencja:focus{
+    border-color:#474c72;
+    box-shadow:0 0 8px 0 #474c72;
+  }
+
+  #zagraniczne:focus{
+    border-color:#474c72;
+    box-shadow:0 0 8px 0 #474c72;
+  }
+
+  .dropbox_title{
+    margin-top: 15px;
+    color: #474c72;
+  }
+/* form */
+
+/*SEKCJA CZWARTA----------------------------*/
+
+/*FOOOTER---------------------*/
+
+section.footer > .container > .row > .col-md-3 > div > a{
+	text-align: center;
+	color: white !important;
+	text-decoration: none;
+	margin-top: 25%;
+	position: relative;
+	top: 42%;
+	transform: translateY(-50%);
+	font-size: 20px;
+}
+
+.foot_square{
+	text-align: center;
+	background: #474c72;
+	width: 100%;
+	height: 220px;
+	transition: all .4s;
+}
+
+.foot_square:hover{
+	text-align: center;
+	/*background: #585f8d;*/
+	width: 100%;
+	height: 220px;
+	transition: all .4s
+	-webkit-box-shadow: 5px 5px 10px 3px #CFCFCF;
+	box-shadow: 5px 5px 10px 3px #CFCFCF;
+}
+
+section.footer > .container > .row > .col-md-12 > h3{
+	text-align: center;
+	margin-bottom: 40px;
+}
+
+
+/*FOOOTER---------------------*/
